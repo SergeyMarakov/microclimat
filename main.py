@@ -11,8 +11,8 @@ from core.room_state import RoomState
 from bot.telegram_bot import TelegramBot
 
 # Инициализация модулей
-#camera = Camera(source=r"C:\Users\m3rak\PycharmProjects\microklimat\Видео_без_названия_—_сделано_в_Clipchamp_1.mp4")
-camera = Camera(source=0) # камера
+camera = Camera(source=r"C:\Users\m3rak\PycharmProjects\microklimat\Видео_без_названия_—_сделано_в_Clipchamp_1.mp4")
+#camera = Camera(source=0) # камера
 sensor_reader = ArduinoDataReader() # или ArduinoDataReader(port='COM3') из sensors.arduino_data_reader
 heater_ctrl = HeaterController()
 ac_ctrl = ACController()
